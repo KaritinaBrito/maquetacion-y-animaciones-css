@@ -212,11 +212,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: pink;
+    background-color: var(--yellow);
     position: absolute;
     z-index: 3;
 
-    animation: loader 0.2s linear forwards;
+    animation: loader 2s linear forwards;
 }
 @keyframes loader {
     0%{
@@ -234,7 +234,7 @@ body{
     }
 }
 .loader div{
-    background: lightskyblue;
+    background: white;
     width: 40px;
     height: 40px;
     border-radius: 50%;
